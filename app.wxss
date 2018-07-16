@@ -1,0 +1,29 @@
+
+page{
+    color: #333;
+}
+.flex {
+    display: flex;
+}
+.flex-justify{
+    display:flex;/*Flex布局*/
+    align-items:center;/*指定垂直居中*/
+    justify-content:space-between;
+}
+.flex_item {
+    flex: 1;
+}
+.InlineToBlock{
+    display: block;
+}
+.blockToInline{
+    display: inline-block;
+}
+.fixed__top{
+    position: sticky;
+    position: -webkit-sticky;
+   top: 0px;
+   left: 0px;
+   width: 100%;
+   z-index: 1000;
+}

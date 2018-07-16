@@ -1,0 +1,10 @@
+//关键词标红
+function insertStr(str,str1){
+    var strings = str.replace(str1, "<span class='red'>"+str1+"</span>")
+    return strings
+}
+
+module.exports = {
+    insertStr: insertStr
+  
+}

@@ -1,0 +1,8 @@
+{
+    "navigationBarTitleText": "店长直聘",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ff5151",
+    "backgroundColorTop": "#ff5151",
+    "backgroundColorBottom": "#ffffff",
+    "onReachBottomDistance": 200
+}

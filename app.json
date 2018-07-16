@@ -1,0 +1,37 @@
+{
+    "pages": [
+        "pages/commentList/commentList"
+    ],
+    "window": {
+        "backgroundTextStyle": "#FF5151",
+        "navigationBarBackgroundColor": "#FF5151",
+        "navigationBarTitleText": "店长直聘",
+        "navigationBarTextStyle": "#FF5151"
+    },
+    "tabBar": {
+        "borderStyle": "black",
+        "backgroundColor": "#fff",
+        "color": "#000000",
+        "selectedColor": "#FF5151",
+        "list": [
+            {
+                "pagePath": "pages/commentList/commentList",
+                "text": "云图",
+                "iconPath": "images/bottom/bottom-work.png",
+                "selectedIconPath": "images/bottom/bottom-work-light.png"
+            },
+            {
+                "iconPath": "images/bottom/bottom-search.png",
+                "selectedIconPath": "images/bottom/bottom-search-light.png",
+                "pagePath": "pages/commentList/commentList",
+                "text": "搜索"
+            },
+            {
+                "iconPath": "images/bottom/bottom-person.png",
+                "selectedIconPath": "images/bottom/bottom-person-light.png",
+                "pagePath": "pages/commentList/commentList",
+                "text": "我的"
+            }
+        ]
+    }
+}

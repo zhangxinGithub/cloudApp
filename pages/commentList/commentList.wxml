@@ -1,0 +1,3 @@
+<view>
+    <view wx:bind="openPhone">点击拍照</view>
+</view>
